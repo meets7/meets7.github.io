@@ -102,3 +102,7 @@ body {
 .fa-file:hover{
   color: #2186fa;
 }
+
+.fa-github:hover{
+  color: black;
+}
