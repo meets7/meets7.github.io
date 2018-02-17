@@ -1,0 +1,103 @@
+/*!
+ * Start Bootstrap - The Big Picture (https://startbootstrap.com/template-overviews/the-big-picture)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-the-big-picture/blob/master/LICENSE)
+ */
+
+body {
+  text-align: center;
+}
+
+.content:before {
+  content: "";
+  position: fixed;
+  left: -5%;
+  right: -5%;
+  z-index: -1;
+  
+  display: block;
+  background: url('../img/bg-3.jpg') no-repeat center center fixed;
+  width: 110%;
+  height: 110%;
+  
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.content {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+#profile-photo {
+    background-image: url('../img/profile-photo.jpg');
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    margin: 0 auto;
+    margin-top: 5%;
+
+}
+
+.info-text{
+	margin: 0 auto;
+  color: #e6e6fa;
+}
+
+.info-text h1{
+	font-size: 56px;
+}
+
+#social-icons{
+  color: white;
+  margin: 0 auto;
+  font-size: 32px;
+  margin-top: 5%;
+}
+
+#social-icons a{
+  margin: 5px; 
+  color: white;
+}
+
+#about{
+  margin-top: 20%;
+}
+
+#about a{
+  color: #ffdd33
+}
+
+.fa-linkedin:hover{
+  color: #0077B5;
+}
+
+.fa-quora:hover{
+  color: #a82400;
+}
+
+.fa-envelope:hover{
+  color: #db3236;
+}
+
+.fa-file:hover{
+  color: #2186fa;
+}
